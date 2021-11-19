@@ -1,0 +1,6 @@
+owner = LAU
+controller = LAU
+add_core = LAU
+trade_goods = timber
+life_rating = 32
+colonial = 2

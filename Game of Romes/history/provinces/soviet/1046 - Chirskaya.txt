@@ -1,0 +1,7 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+add_core = DON
+add_core = KMK
+trade_goods = coal
+life_rating = 35

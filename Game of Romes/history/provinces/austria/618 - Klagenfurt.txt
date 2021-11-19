@@ -1,0 +1,8 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+add_core = AUS
+add_core = SGC
+add_core = DUT
+trade_goods = coal
+life_rating = 35

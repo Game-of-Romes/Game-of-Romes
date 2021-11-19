@@ -1,0 +1,6 @@
+owner = PER
+controller = PER
+add_core = ARA
+trade_goods = fish
+terrain = mountain
+life_rating = 31

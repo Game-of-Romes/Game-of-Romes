@@ -1,0 +1,6 @@
+owner = IGL
+controller = IGL
+add_core = IGL
+trade_goods = timber
+terrain = boreal
+life_rating = 10

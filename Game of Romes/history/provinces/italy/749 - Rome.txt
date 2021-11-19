@@ -1,0 +1,7 @@
+owner = RHO
+controller = RHO
+add_core = RHO
+trade_goods = grain
+life_rating = 45
+naval_base = 1
+1861.1.1 = { railroad = 2 }

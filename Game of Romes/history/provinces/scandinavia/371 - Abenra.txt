@@ -1,0 +1,9 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = NOR
+add_core = SCH
+add_core = HNC
+add_core = DUT
+trade_goods = cattle
+life_rating = 35

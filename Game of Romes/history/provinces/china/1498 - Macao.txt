@@ -1,0 +1,9 @@
+owner = NEU
+controller = NEU
+add_core = CHI
+add_core = GNG
+add_core = MIN
+trade_goods = precious_goods
+life_rating = 35
+colonial = 2
+terrain = urban

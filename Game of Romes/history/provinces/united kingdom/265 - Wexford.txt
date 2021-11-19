@@ -1,0 +1,10 @@
+owner = DYF
+controller = DYF
+add_core = DYF
+add_core = NOR
+trade_goods = fish
+life_rating = 35
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 20
+}

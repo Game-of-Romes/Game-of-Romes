@@ -1,0 +1,6 @@
+owner = HSP
+controller = HSP
+add_core = HSP
+trade_goods = wool
+terrain = montane_forest
+life_rating = 35

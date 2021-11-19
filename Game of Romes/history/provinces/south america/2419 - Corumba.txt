@@ -1,0 +1,7 @@
+owner = PIN
+controller = PIN
+add_core = PIN
+add_core = AMZ
+trade_goods = tropical_wood
+terrain = savanna
+life_rating = 31

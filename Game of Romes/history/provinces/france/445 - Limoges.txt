@@ -1,0 +1,20 @@
+owner = NEU
+controller = NEU
+add_core = NEU
+add_core = LAT
+add_core = GOT
+trade_goods = cattle
+life_rating = 31
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

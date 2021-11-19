@@ -1,0 +1,6 @@
+owner = LUS
+controller = LUS
+add_core = LUS
+trade_goods = tropical_wood
+life_rating = 15
+

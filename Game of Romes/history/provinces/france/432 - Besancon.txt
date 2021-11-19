@@ -1,0 +1,7 @@
+owner = ARE
+controller = ARE
+add_core = ARE
+add_core = LAT
+trade_goods = coal
+life_rating = 33
+1861.1.1 = { railroad = 3 }

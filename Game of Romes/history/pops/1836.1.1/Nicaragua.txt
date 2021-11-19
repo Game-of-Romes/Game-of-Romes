@@ -1,0 +1,179 @@
+#Nicaragua Region (292000)
+#Ruled by Central America 1836
+#Managua (192000/48000 POPS)
+2197 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 1050
+	}
+
+	bureaucrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 100
+	}
+
+	officers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 475
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 2400
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 1475
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 31425
+	}
+
+	farmers = {
+		culture = chibchan
+		religion = catholic
+		size = 12000
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 18000
+	}
+}
+#Rivas (40000/10000 POPS)
+2198 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 275
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 500
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 9025
+	}
+}
+#Esteli (48000/12000 POPS)
+2199 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 325
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 600
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 125
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 6825
+	}
+
+	farmers = {
+		culture = chibchan
+		religion = catholic
+		size = 5000
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 2000
+	}
+}
+#Bluefields (12000/3000 POPS)
+2200 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 15
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 1120
+	}
+	
+	slaves = {
+		culture = afro_italian
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = chibchan #native_american_minor
+		religion = animist
+		size = 2200
+	}
+
+}

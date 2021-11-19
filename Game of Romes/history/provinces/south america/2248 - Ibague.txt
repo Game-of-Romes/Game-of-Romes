@@ -1,0 +1,6 @@
+owner = CIA
+controller = CIA
+add_core = CIA
+trade_goods = wool
+terrain = montane_forest
+life_rating = 34

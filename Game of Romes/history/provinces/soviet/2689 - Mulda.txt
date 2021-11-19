@@ -1,0 +1,7 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+add_core = URA
+trade_goods = precious_metal
+terrain = montane_tundra
+life_rating = 15

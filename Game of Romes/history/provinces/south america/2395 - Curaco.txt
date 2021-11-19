@@ -1,0 +1,4 @@
+add_core = WCA
+add_core = GCA
+trade_goods = cattle
+life_rating = 15

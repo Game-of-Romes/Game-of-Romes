@@ -1,0 +1,10 @@
+owner = RHO
+controller = RHO
+add_core = RHO
+trade_goods = sulphur
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = winery
+#	upgrade = yes
+#}

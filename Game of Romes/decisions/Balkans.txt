@@ -1,0 +1,169 @@
+political_decisions = {
+	
+
+	create_romania = {
+		potential = {
+			NOT = {
+				exists = ROM
+				is_culture_group = pan_romanian
+				AND = {
+					tag = TUR
+					any_owned_province = { is_core = ROM }
+				}
+			}
+			OR = {
+				any_owned_province = {
+					any_neighbor_province = { is_core = ROM }
+				}
+				is_sphere_leader_of = WAL
+				is_sphere_leader_of = MOL
+				is_sphere_leader_of = SIE
+			}	
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			ROM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							war = no
+							is_greater_power = no
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			badboy = 2	
+			any_country = {
+				limit = {
+					primary_culture = romanian
+					ai = yes
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = THIS
+					is_core = ROM
+				}
+				remove_core = ROM
+			}
+			release_vassal = ROM
+			create_alliance = ROM
+			diplomatic_influence = {
+				who = ROM
+				value = 300
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = AUS
+						tag = KUK
+						tag = HUN
+						tag = TUR
+					}
+					NOT = { tag = THIS }
+				}
+				relation = {
+					who = THIS
+					value = -50
+				}
+				relation = {
+					who = ROM
+					value = -50
+				}
+			}
+			ROM = {
+				any_owned = {
+					limit = { is_core = ROM } 
+					remove_core = WAL
+					remove_core = MOL
+					remove_core = MDV
+					remove_core = BKV
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = HUN
+					tag = TUR
+					tag = AUS
+					tag = KUK
+				}
+			}
+		}
+	}
+
+	
+	bulgarian_miracle = {
+		picture = bulgarian_miracle
+		potential = {
+			tag = BUL
+			owns = 809
+			owns = 816
+			NOT = { has_country_flag = the_bulgarian_miracle }
+		}
+		
+		allow = {
+			war = no
+			invention = manifest_destiny
+			private_bank_money_bill_printing = 1
+			stock_exchange = 1
+			809 = { has_building = railroad }
+			money = 10000
+		}
+		
+		effect = {
+			treasury = -10000
+			set_country_flag = the_bulgarian_miracle
+			add_country_modifier = { name = total_reform duration = 3650 }
+			any_owned = { limit = { region = TUR_809 NOT = { province_id = 809 } } add_province_modifier = { name = small_baby_boom duration = 2555 } }
+			TUR_810 = { add_province_modifier = { name = small_baby_boom duration = 2555 } }
+			809 = {
+				life_rating = 5
+				add_province_modifier = { name = recently_built_city duration = 1825 }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	move_capital_to_belgrade = {
+		picture = belgrade_view
+		potential = {
+			tag = SER
+			owns = 794
+			NOT = { capital = 794 }
+		}
+		
+		allow = {
+			war = no
+			NOT = { in_sphere = TUR }
+			state_n_government = 1
+		}
+		
+		effect = {
+			capital = 794
+			prestige = 1
+			random_owned = {
+				limit = {
+					province_id = 794
+					NOT = { life_rating = 36 }
+				}
+				life_rating = 1
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

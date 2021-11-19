@@ -1,0 +1,6 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+add_core = TAR
+trade_goods = grain
+life_rating = 40

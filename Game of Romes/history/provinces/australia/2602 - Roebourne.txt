@@ -1,0 +1,7 @@
+owner = SWE
+controller = SWE
+add_core = SOD
+trade_goods = grain
+terrain = semidesert
+life_rating = 31
+colonial = 2

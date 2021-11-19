@@ -1,0 +1,5 @@
+add_core = ECA
+add_core = WCA
+add_core = GCA
+trade_goods = wool
+life_rating = 15

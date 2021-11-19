@@ -1,0 +1,68 @@
+political_decisions = {
+    form_laurentia = {
+        picture = form_laurentia
+        potential = {
+            is_culture_group = laurentian
+            NOT = {
+				exists = LAU
+			}
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			OR = {
+                is_greater_power = yes
+                is_secondary_power = yes
+            }
+            LAU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+					}
+				}
+			}
+        }
+
+        effect = {
+            prestige = 15
+            ACD = {
+                all_core = {
+					add_core = LAU
+					remove_core = ACD
+				}
+			}
+            VAL = {
+                all_core = {
+					add_core = LAU
+                    remove_core = VAL
+				}
+			}
+            any_country = {
+				limit = {
+					NOT = { tag = THIS }
+                    is_culture_group = laurentian
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            add_accepted_culture = french_acadian
+			add_accepted_culture = valois
+            add_accepted_culture = anglo_acadian
+			change_tag = LAU
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+}

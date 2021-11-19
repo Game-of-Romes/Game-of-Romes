@@ -1,0 +1,5 @@
+owner = RIV
+controller = RIV
+add_core = RIV
+trade_goods = grain
+life_rating = 35

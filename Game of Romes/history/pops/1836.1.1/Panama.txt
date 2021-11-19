@@ -1,0 +1,260 @@
+#Panama Region (128000)
+#Ruled by Colombia 1836
+#Balboa (12000/3000 POPS)
+1723 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 895
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 2000
+	}
+}
+
+#Panama City (52000/13000 POPS)
+2204 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 225
+	}
+
+	bureaucrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 25
+	}
+
+	officers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 450
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 8050
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 4100
+	}
+}
+#David (28000/7000 POPS)
+2205 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 300
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 5375
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 2000
+	}
+}
+#Penonome (24000/6000 POPS)
+2206 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 250
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 4500
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 1000
+	}
+}
+#Yaviza (12000/3000 POPS)
+2208 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 895
+	}
+
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 895
+	}
+
+	aristocrats = {
+		culture = chibchan #native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = chibchan #native_american_minor
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = chibchan #native_american_minor
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = chibchan #native_american_minor
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = chibchan #native_american_minor
+		religion = animist
+		size = 900
+	}
+
+}

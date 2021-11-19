@@ -1,0 +1,6 @@
+owner = RIV
+controller = RIV
+add_core = RIV
+add_core = MAY
+trade_goods = fruit
+life_rating = 33

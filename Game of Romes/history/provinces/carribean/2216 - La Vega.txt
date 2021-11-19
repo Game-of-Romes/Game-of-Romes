@@ -1,0 +1,6 @@
+owner = VEN
+controller = VEN
+colonial = 2
+add_core = AYI
+trade_goods = coffee
+life_rating = 35

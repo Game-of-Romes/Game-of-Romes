@@ -1,0 +1,6 @@
+owner = SWE
+controller = SWE
+add_core = SOD
+trade_goods = cattle
+life_rating = 34
+colonial = 2

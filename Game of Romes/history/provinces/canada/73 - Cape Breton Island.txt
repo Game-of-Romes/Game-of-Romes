@@ -1,0 +1,5 @@
+owner = LAU
+controller = LAU
+add_core = LAU
+trade_goods = coal
+life_rating = 31

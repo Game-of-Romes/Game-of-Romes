@@ -1,0 +1,10 @@
+owner = ARM
+controller = ARM
+add_core = ARM
+trade_goods = wool
+life_rating = 35
+
+1861.1.1 = {
+	controller = TUR 
+	owner = TUR
+}

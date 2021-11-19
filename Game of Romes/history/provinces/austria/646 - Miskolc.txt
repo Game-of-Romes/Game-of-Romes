@@ -1,0 +1,5 @@
+owner = WEN
+controller = WEN
+add_core = WEN
+trade_goods = fruit
+life_rating = 35

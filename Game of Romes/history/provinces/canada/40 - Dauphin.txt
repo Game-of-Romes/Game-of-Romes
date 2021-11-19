@@ -1,0 +1,6 @@
+owner = LAU
+controller = LAU
+add_core = LAU
+trade_goods = timber
+terrain = new_world_boreal
+life_rating = 31

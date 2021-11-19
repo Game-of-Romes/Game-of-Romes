@@ -1,0 +1,8 @@
+owner = DEC
+controller = DEC
+add_core = DEC
+add_core = HND
+add_core = BHA
+trade_goods = grain
+life_rating = 32
+1861.1.1 = { railroad = 2 }

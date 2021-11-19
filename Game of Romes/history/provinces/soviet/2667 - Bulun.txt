@@ -1,0 +1,4 @@
+add_core = TSA
+trade_goods = timber
+terrain = montane_tundra
+life_rating = 10

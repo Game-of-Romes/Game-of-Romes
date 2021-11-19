@@ -1,0 +1,6 @@
+owner = RHO
+controller = RHO
+add_core = RHO
+trade_goods = fruit
+life_rating = 31
+terrain = small_island

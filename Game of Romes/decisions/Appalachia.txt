@@ -1,0 +1,67 @@
+political_decisions = {
+    form_appalachia = {
+        picture = form_appalachia
+        potential = {
+            is_culture_group = appalachian
+            NOT = {
+				exists = APP
+			}
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			OR = {
+                is_greater_power = yes
+                is_secondary_power = yes
+            }
+            APP = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+					}
+				}
+			}
+        }
+
+        effect = {
+            prestige = 15
+            LIN = {
+                all_core = {
+					add_core = APP
+					remove_core = LIN
+				}
+			}
+            HDL = {
+                all_core = {
+					add_core = APP
+                    remove_core = HDL
+				}
+			}
+            any_country = {
+				limit = {
+					NOT = { tag = THIS }
+                    is_culture_group = appalachian
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            add_accepted_culture = lindish
+			add_accepted_culture = handellandic
+			change_tag = APP
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+}

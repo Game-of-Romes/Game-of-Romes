@@ -1,0 +1,147 @@
+#Costa Rica Region (84000)
+#Ruled by Central America 1836
+#San Jose (52000/13000 POPS)
+2201 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	officers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 650
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 525
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 7725
+	}
+
+	farmers = {
+		culture = chibchan
+		religion = catholic
+		size = 3000
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 1000
+	}
+}
+#Liberia (20000/5000 POPS)
+2202 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 250
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 3500
+	}
+
+	farmers = {
+		culture = chibchan
+		religion = catholic
+		size = 1000
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 2000
+	}
+}
+#Limon (12000/3000 POPS)
+2203 = {
+	aristocrats = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = ciarrassinese
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = chibchan
+		religion = catholic
+		size = 700
+	}
+
+	slaves = {
+		culture = afro_italian
+		religion = catholic
+		size = 1000
+	}
+
+}

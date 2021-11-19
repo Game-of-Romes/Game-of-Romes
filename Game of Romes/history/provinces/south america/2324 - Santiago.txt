@@ -1,0 +1,5 @@
+owner = HSP
+controller = HSP
+add_core = HSP
+trade_goods = grain
+life_rating = 39

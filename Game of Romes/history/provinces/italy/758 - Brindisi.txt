@@ -1,0 +1,6 @@
+owner = RHO
+controller = RHO
+add_core = RHO
+trade_goods = cotton
+naval_base = 1
+life_rating = 40

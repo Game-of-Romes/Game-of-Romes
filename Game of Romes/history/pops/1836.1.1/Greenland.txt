@@ -1,0 +1,37 @@
+#Greenland (7500)
+#Ruled by Denmark 1836
+#Godthab (4220/1055 POPS)
+251 = {
+	bureaucrats = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 23
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 23
+	}
+
+	farmers = {
+		culture = inuit
+		religion = catholic
+		size = 1400
+	}
+}
+
+#Egedesminde (816/204 POPS)
+2636 = {
+	farmers = {
+		culture = inuit
+		religion = catholic
+		size = 505
+	}
+}

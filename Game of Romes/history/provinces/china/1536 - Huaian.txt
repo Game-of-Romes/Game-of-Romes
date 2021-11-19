@@ -1,0 +1,7 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+add_core = MIN
+add_core = CHI
+trade_goods = silk
+life_rating = 32

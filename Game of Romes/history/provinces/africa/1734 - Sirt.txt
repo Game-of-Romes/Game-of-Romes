@@ -1,0 +1,9 @@
+owner = SIC
+controller = SIC
+add_core = SIC
+add_core = MGH
+add_core = ROM
+trade_goods = wool
+life_rating = 35
+terrain = semidesert
+#terrain = coastal_desert

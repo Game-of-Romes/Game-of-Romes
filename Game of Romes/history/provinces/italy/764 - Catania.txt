@@ -1,0 +1,5 @@
+owner = RHO
+controller = RHO
+add_core = RHO
+trade_goods = sulphur
+life_rating = 40

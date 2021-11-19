@@ -1,0 +1,7 @@
+owner = HIS
+controller = HIS
+add_core = VIJ
+add_core = MYS
+add_core = BHA
+trade_goods = grain
+life_rating = 32

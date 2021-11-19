@@ -1,0 +1,7 @@
+owner = GOT
+controller = GOT
+add_core = GOT
+add_core = HIS
+trade_goods = cattle
+life_rating = 31
+1861.1.1 = { railroad = 3 }

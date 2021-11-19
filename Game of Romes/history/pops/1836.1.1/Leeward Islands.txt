@@ -1,0 +1,209 @@
+#Leeward Islands Region - 61600
+#Ruled by Britain 1836
+#Antigua (25000/6250 POPS) #now independent
+2224 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 30
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 75
+	}
+
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 150
+	}
+
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 50
+	}
+
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 5470
+	}
+}
+#Montserrat (5300/1325 POPS) #still British Colony
+2225 = {
+	aristocrats = {
+		culture = danish
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = danish
+		religion = catholic
+		size = 5
+	}
+
+	artisans = {
+		culture = danish
+		religion = catholic
+		size = 30
+	}
+
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 30
+	}
+
+	soldiers = {
+		culture = danish
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_scandinavian
+		religion = catholic
+		size = 1440
+	}
+}
+#Tortola (4800/1200 POPS) #still British Colony
+2226 = {
+	aristocrats = {
+		culture = scottish
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = scottish
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = scottish
+		religion = catholic
+		size = 40
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 40
+	}
+
+	clergymen = {
+		culture = afro_gaelic
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = afro_gaelic
+		religion = catholic
+		size = 35
+	}
+
+	soldiers = {
+		culture = afro_gaelic
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_gaelic
+		religion = catholic
+		size = 1040
+	}
+}
+#Saint Kitts (26500/6625 POPS) #now independent
+2227 = {
+	aristocrats = {
+		culture = english
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = english
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = english
+		religion = catholic
+		size = 225
+	}
+
+	soldiers = {
+		culture = english
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = english
+		religion = catholic
+		size = 260
+	}
+
+	clergymen = {
+		culture = afro_english
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = afro_english
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_english
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = afro_english
+		religion = catholic
+		size = 5900
+	}
+
+}

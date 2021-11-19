@@ -1,0 +1,12 @@
+owner = LUS
+controller = LUS
+add_core = LUS
+add_core = HIS
+trade_goods = coal
+life_rating = 35
+#state_building = {
+#	level = 1
+#	building = steel_factory
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 3 }

@@ -1,0 +1,8 @@
+owner = AND
+controller = AND
+add_core = AND
+add_core = HIS
+add_core = MGH
+terrain = semidesert
+trade_goods = wool
+life_rating = 31

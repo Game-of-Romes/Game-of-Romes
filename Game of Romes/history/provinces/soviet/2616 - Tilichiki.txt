@@ -1,0 +1,6 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+colonial = 2
+trade_goods = fish
+life_rating = 20

@@ -1,0 +1,6 @@
+owner = PIN
+controller = PIN
+add_core = PIN
+add_core = AMZ
+trade_goods = fruit
+life_rating = 31

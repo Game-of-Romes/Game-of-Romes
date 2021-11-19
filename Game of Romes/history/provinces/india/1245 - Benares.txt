@@ -1,0 +1,7 @@
+owner = DEL
+controller = DEL
+add_core = DEL
+add_core = BUN
+add_core = HND
+trade_goods = opium
+life_rating = 32

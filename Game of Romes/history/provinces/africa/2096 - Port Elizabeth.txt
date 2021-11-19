@@ -1,0 +1,8 @@
+owner = HLL
+controller = HLL
+add_core = XHO
+add_core = CAP
+trade_goods = fruit
+life_rating = 35
+colonial = 2
+naval_base = 1

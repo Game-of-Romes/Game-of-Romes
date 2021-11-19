@@ -1,0 +1,39 @@
+
+country_event = {
+	id = CS1
+	title = "EVTNAMECS1" #The Dual Monarchy Question
+	desc = "EVTDESCCS1"
+	picture = "french_on_crimean_war"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTCS1OPTA"
+		prestige = 10
+		set_country_flag = claimed_illyria
+		badboy = 15
+		ILL = { 
+			all_core = {
+				add_core = HUN
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = "EVTCS1OPTB"
+		prestige = 10
+		set_country_flag = claimed_romania
+		badboy = 20
+		ROM = { 
+			all_core = {
+				add_core = HUN
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

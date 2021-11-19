@@ -1,0 +1,7 @@
+owner = NEU
+controller = NEU
+add_core = NEU
+add_core = LAT
+add_core = BRT
+trade_goods = fish
+life_rating = 31

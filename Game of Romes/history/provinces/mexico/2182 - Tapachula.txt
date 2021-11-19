@@ -1,0 +1,6 @@
+owner = AZT
+controller = AZT
+add_core = AZT
+add_core = MAY
+trade_goods = cotton
+life_rating = 31

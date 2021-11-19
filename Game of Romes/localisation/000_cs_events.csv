@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;
+EVTNAMECS1;The Dual Monarchy Question;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESCCS1;Both the Kingdom of Hungary and Kingdom of Croatia were once united under a common Hungarian king. Now that we have a stable position in Central Europe, we could push our claim on the entirety of Illyria. On the other hand, Romanian nationalists are becoming increasingly in favor of establishing their own state. We've ruled Transylvania for centuries and as such we could instead claim the Crown of Romania. In any case, we find ourselves in the position to establish a Dual Monarchy which would easily secure our place amongst the Great Powers of Europe.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTCS1OPTA;Claim the Crown of Illyria;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTCS1OPTB;Claim the Crown of Romania;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME1000000;Choose the capital of Germany;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC1000000;Now that we have established a unified Germany, it is time to choose a capital for the new nation. Several cities with ties to the Holy Roman Empire's heyday have been proposed, although we could simply keep our current capital which has become quite prestigious.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT1000000OPTA;Keep our current capital;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT1000000OPTC;Make Lübeck the new capital;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT1000000OPTD;Make Frankfurt the new capital;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT1000000OPTE;Make Nuremberg the new capital;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT1000000OPTF;Make Regensburg the new capital;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

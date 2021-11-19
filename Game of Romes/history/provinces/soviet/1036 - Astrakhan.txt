@@ -1,0 +1,6 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+add_core = AKH
+trade_goods = wool
+life_rating = 35

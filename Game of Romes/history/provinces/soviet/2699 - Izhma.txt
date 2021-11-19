@@ -1,0 +1,6 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+trade_goods = timber
+terrain = boreal
+life_rating = 10

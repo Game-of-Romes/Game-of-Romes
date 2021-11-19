@@ -1,0 +1,9 @@
+owner = NEU
+controller = NEU
+add_core = NEU
+add_core = LAT
+trade_goods = fish
+life_rating = 31
+naval_base = 1
+fort = 2
+1861.1.1 = { railroad = 3 }

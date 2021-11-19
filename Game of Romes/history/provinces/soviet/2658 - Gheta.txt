@@ -1,0 +1,6 @@
+owner = TSA
+controller = TSA
+add_core = TSA
+add_core = URA
+trade_goods = timber
+life_rating = 35

@@ -1,0 +1,161 @@
+political_decisions = {
+    hungarian_question = {
+        picture = hungarian_question
+        potential = {
+            tag = HUN
+            NOT = {
+				has_country_flag = hungarian_question
+			}
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			OR = {
+                is_greater_power = yes
+                is_secondary_power = yes
+            }
+        }
+        effect = {
+            set_country_flag = hungarian_question
+            country_event = CS1
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+
+    hungary_illyria = {
+        picture = form_illyria
+        potential = {
+            tag = HUN
+            has_country_flag = claimed_illyria
+            NOT = {
+				exists = HIU
+			}
+        }
+        allow = {
+            war = no
+            ILL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+					}
+				}
+			}
+        }
+
+        effect = {
+            prestige = 15
+            ILL = {
+                all_core = {
+					add_core = HIU
+					remove_core = HUN
+                    remove_core = CRO
+                    remove_core = CRN
+                    remove_core = BOS
+				}
+			}
+            HUN = {
+                all_core = {
+					add_core = HIU
+					remove_core = HUN
+                    remove_core = CRO
+                    remove_core = CRN
+                    remove_core = BOS
+				}
+			}
+            any_country = {
+				limit = {
+                    is_culture_group = illyrian
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            add_accepted_culture = croat
+            add_accepted_culture = carinthian
+            add_accepted_culture = bosniak
+            add_accepted_culture = istrian
+            add_accepted_culture = dalmatian
+			change_tag = HIU
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+
+    hungary_romania = {
+        picture = create_romania
+        potential = {
+            tag = HUN
+            has_country_flag = claimed_romania
+            NOT = {
+				exists = HRU
+			}
+        }
+        allow = {
+            war = no
+            ROM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+					}
+				}
+			}
+        }
+
+        effect = {
+            prestige = 15
+            ROM = {
+                all_core = {
+					add_core = HRU
+					remove_core = HUN
+                    remove_core = WAL
+                    remove_core = MOL
+                    remove_core = SIE
+				}
+			}
+            HUN = {
+                all_core = {
+					add_core = HRU
+					remove_core = HUN
+                    remove_core = WAL
+                    remove_core = MOL
+                    remove_core = SIE
+				}
+			}
+            any_country = {
+				limit = {
+                    is_culture_group = romanian
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            add_accepted_culture = romanian
+			change_tag = HRU
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+}

@@ -1,0 +1,6 @@
+owner = MYN
+controller = MYN
+add_core = MYN
+add_core = MLY
+trade_goods = grain
+life_rating = 35

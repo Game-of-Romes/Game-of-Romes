@@ -1,0 +1,6 @@
+owner = MGD
+controller = MGD
+add_core = MGD
+add_core = MLY
+trade_goods = iron
+life_rating = 35

@@ -1,0 +1,9 @@
+owner = SER
+controller = SER
+add_core = BOS
+add_core = CRO
+add_core = SER
+add_core = ILL
+add_core = DNB
+trade_goods = fruit
+life_rating = 35

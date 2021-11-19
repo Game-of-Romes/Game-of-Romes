@@ -1,0 +1,72 @@
+political_decisions = {
+    form_friesland = {
+        picture = form_friesland
+        potential = {
+            is_culture_group = frisian
+            NOT = {
+				exists = FRI
+			}
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			OR = {
+                is_greater_power = yes
+                is_secondary_power = yes
+            }
+            FRI = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+					}
+				}
+			}
+        }
+
+        effect = {
+            prestige = 15
+            HLL = {
+                all_core = {
+					add_core = FRI
+					remove_core = HLL
+				}
+			}
+            FLA = {
+                all_core = {
+					add_core = FRI
+                    remove_core = FLA
+				}
+			}
+            BNT = {
+                all_core = {
+					add_core = FRI
+                    remove_core = BNT
+				}
+			}
+            any_country = {
+				limit = {
+					NOT = { tag = THIS }
+                    is_culture_group = frisian
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+            add_accepted_culture = boer
+			change_tag = FRI
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+}

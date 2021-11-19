@@ -1,0 +1,6 @@
+owner = VIJ
+controller = VIJ
+add_core = VIJ
+add_core = BHA
+trade_goods = cattle
+life_rating = 32
